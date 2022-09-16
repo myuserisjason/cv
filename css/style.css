@@ -1,0 +1,84 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+body {
+    margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fca311;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #2daff5;    
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2daff5;
+}
+
+a:active {
+    text-decoration: none;
+    color: #0e79b3;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: right;
+  }
+
+.button1 {
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
+
+.button1:hover {
+    background-color: gray;
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.skills {
+    column-count: 2;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.leadexp {
+    column-count: 2;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.lang {
+    margin-left: 35%;
+    column-count: 2;
+    float: center;
+    padding: 5%;
+}
+
+P.copyright {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
